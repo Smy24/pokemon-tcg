@@ -1,0 +1,46 @@
+.Card {
+    color: black;
+    text-align: center;
+    width: 25rem;
+    height: 35rem;
+    border: .1rem solid black;
+    background-color: #ffba26;
+    border-radius: 3rem;
+    box-shadow: 5px 5px 12px #b37d12;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+}
+
+.Card {
+    overflow: hidden;
+    transition: transform 0.2s ease-in;
+    -webkit-transition: transform 0.2s ease-in;
+    -moz-transition: transform 0.2s ease-in;
+    -ms-transition: transform 0.2s ease-in;
+    -o-transition: transform 0.2s ease-in;
+}
+
+.Card:hover {
+    transform: scale(1.2);
+    opacity: 0.7;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+
+.Card-name {
+    font-size: 2rem;    
+}
+
+.Card-row {
+    font-size: 1.3rem;
+}
+
+.Card-total {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
